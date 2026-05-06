@@ -471,53 +471,64 @@ let input = "@input".toLowerCase()
 Aufgabe 3.3: Sternaufgabe
 -------------------------
 
->Der Wert in einem äußeren Feld entsteht aus dem Produkt der beiden angrenzenden
+>Der Wert in einem Feld entsteht aus dem Produkt der beiden angrenzenden
 >inneren Felder.
 >
->> Wichtig!!! Gib deine Antwort immer im folgenden Format ohne Leerzeichen oder Mal-Zeichen ein: Erst die Zahlen, dann die Variablen (Buchstaben) in alphabeischer Reihenfolge.
+>**Ergänze** alle leeren Felder direkt im Stern.
 >
->**Ergänze** die äußeren Felder direkt im Stern.
+>> HIINWEIS 1: Wenn du zwei Terme miteinander multiplizierst, die dieselben Variablen beinhalten, dann schreibe die Variable im Ergebnis entsprechend oft auf.
+>>
+>>Beispiel: $3ax \cdot 7ay = 21aaxy$ 
+>
+>>Hinweis 2: Schreibe in einem Term immer erst die Zahl, dann die Variablen (Buchstaben) in alphabetischer Reihenfolge, OHNE Leerzeichen oder ähnliches direkt aneinander!
 >
 > <!-- data-show-partial-solution
        data-solution-button="off" -->
 >``` ascii
->                              +---------------+
->                              | " [[ 6xy ]] " |
->                              +---------------+
->                                 /         \
->                                /           \
->                               /             \
->
->                    +---------+               +---------+
->                    |   2x    |---------------|   3y    |
->                    +---------+               +---------+
->                       /                             \
->                      /                               \
->                     /                                 \
->
->      +---------------+                               +----------------+
->      | " [[ 8ax ]] " |                               | " [[ 15by ]] " |
->      +---------------+                               +----------------+
->
->                     \                                 /
->                      \                               /
->                       \                             /
->                    +---------+               +---------+
->                    |   4a    |---------------|   5b    |
->                    +---------+               +---------+
->
->                               \             /
->                                \           /
->                                 \         /
->                              +----------------+
->                              | " [[ 20ab ]] " |
->                              +----------------+
+>                               +------------------+
+>                               |4 " [[ -12xy ]] " |
+>                               +------------------+
+>                                /     ^    ^    \
+>                               /      |    |     \
+>                              v       |    |      v
+>        +----------------------+      |    |     +----------------------+
+>        |5 " [[ 540axxxy ]] "  |      |    |     |6 " [[ -960bxyyy ]] " |
+>        +----------------------+      |    |     +----------------------+
+>                 ^          ^         |    |        ^          ^
+>                 |           \        |    |       /           |
+>                 |            \       |    |      /            |
+>                 |             \      |    |     /             |
+>                 |              \     |    |    /              |
+>        +----------------+     +---------+---------+      +----------------+
+>        |1 " [[ 15ax ]] "|<----|   -3x   |   4y    |----->|2 " [[ 20by ]] "|
+>        +----------------+^    +---------+---------+    ^ +----------------+
+>                 |         \                           /       |
+>                 |          \  +---------+---------+  /        |
+>                 |           `-|   -5a   |   5b    |-'         |
+>                 |             +---------+---------+           |
+>                 |             /     |     |    \              |
+>                 |            /      |     |     \             |
+>                 |           /       |     |      \            |
+>                 v          v        |     |       v           v
+>        +-----------------------+    |     |    +-----------------------+
+>        |7 " [[ 1875aaabx ]] "  |    |     |    |8 " [[ -2500abbby ]] " |
+>        +-----------------------+    |     |    +-----------------------+
+>                               ^     |     |     ^
+>                                \    |     |    /
+>                                 \   |     |   /
+>                                  \  v     v  /
+>                              +------------------+
+>                              |3 " [[ -25ab ]] " |
+>                              +------------------+
 >```
->[[?]] Multipliziere immer die beiden angrenzenden inneren Felder.
->[[?]] Oben: $2x \cdot 3y$
->[[?]] Rechts: $3y \cdot 5b$
->[[?]] Unten: $4a \cdot 5b$
->[[?]] Links: $2x \cdot 4a$
+>[[?]] Multipliziere immer alle verbundenen Felder.
+>[[?]] Oben links: $-12xy \cdot (-3x) \cdot 15ax$
+>[[?]] Oben rechts: $-12xy \cdot 4y \cdot 20by$
+>[[?]] Unten links: $15ax \cdot (-5a) \cdot (-25ab)$
+>[[?]] Unten rechts: $20by \cdot 5b \cdot (-25ab)$
+>[[?]] Multipliziere immer die beiden angrenzenden inneren Felder.  
+
+--------------------------------
 
 
 # 4 - Rechengesetz 4: *Produkte von Zahlen und Variablen*
