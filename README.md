@@ -560,6 +560,9 @@ $\frac{6a^2}{2}=3a^2$
 Übungen
 =======
 
+>> Nutze im Folgenden immer die Schreibweise x\^2, wenn du eigentlich x^2^ schreiben möchtest.
+
+
 Aufgabe 4.1: Potenz-Detektiv
 ----------------------------
 
