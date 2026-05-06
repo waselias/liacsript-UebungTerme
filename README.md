@@ -474,6 +474,8 @@ Aufgabe 3.3: Sternaufgabe
 >Der Wert in einem äußeren Feld entsteht aus dem Produkt der beiden angrenzenden
 >inneren Felder.
 >
+>> Wichtig!!! Gib deine Antwort immer im folgenden Format ohne Leerzeichen oder Mal-Zeichen ein: Erst die Zahlen, dann die Variablen (Buchstaben) in alphabeischer Reihenfolge.
+>
 >**Ergänze** die äußeren Felder direkt im Stern.
 >
 > <!-- data-show-partial-solution
